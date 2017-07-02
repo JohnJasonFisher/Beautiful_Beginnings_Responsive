@@ -75,6 +75,11 @@ footer ul {
   list-style-type: none;
 }
 
+.newsletter-ul {
+  margin: 0px;
+  padding: 0px;
+}
+
 footer:after {
   content: "";
   display: block;
@@ -91,8 +96,11 @@ footer li p {
   text-transform: capitalize;
   font-size: 10px;
   color: grey;
+  margin: 0px;
+  padding: 0px;
 }
 
 #contactus {
-
+  padding: 0px;
+  margin: 0px;
 }

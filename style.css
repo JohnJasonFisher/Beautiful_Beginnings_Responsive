@@ -36,23 +36,22 @@ body {
 
 .wrapper {
   width: 96%;
-  max-width: 1200px;
+  max-width: 1000px;
   margin: 0 auto;
   padding: 0 2%;
 }
 
+.info-line {
+}
 
-
+.support {
+  
+}
 
 .breadcrumb {
 
 }
 
 .header-hr {
-  margin: 0px;
-}
-
-.info-line {
-  padding: 0px;
   margin: 0px;
 }

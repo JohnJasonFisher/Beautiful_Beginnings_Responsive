@@ -11,6 +11,10 @@ p, li, h1, h2, h3, h4 {
   color: black;
 }
 
+body {
+  background: #0000FF;
+}
+
 .top-stripe {
   height: 10px;
   background-image: linear-gradient(
@@ -22,17 +26,23 @@ p, li, h1, h2, h3, h4 {
     firebrick 50%,
     firebrick 75%,
     green 75%);
-  background-size: 100% 10px;
-  background-repeat: no-repeat;
-}
+    background-size: 100% 10px;
+    background-repeat: no-repeat;
+  }
 
-.polka-dotted-wrapper {
+  .polka-dotted-wrapper {
 
-}
+  }
 
 .wrapper {
-
+  width: 96%;
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 2%;
 }
+
+
+
 
 .breadcrumb {
 

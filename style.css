@@ -1,0 +1,27 @@
+.top-stripe {
+  height: 10px;
+  background-image: linear-gradient(
+    to right,
+    orange,
+    orangered 25%,
+    skyblue 25%,
+    deepskyblue 50%,
+    firebrick 50%,
+    firebrick 75%,
+    green 75%);
+  background-size: 100% 10px;
+  background-repeat: no-repeat;
+}
+
+.breadcrumb {
+
+}
+
+.header-hr {
+  margin: 0px;
+}
+
+.info-line {
+  padding: 0px;
+  margin: 0px;
+}

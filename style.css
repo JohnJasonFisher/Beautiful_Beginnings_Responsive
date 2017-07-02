@@ -12,7 +12,7 @@ p, li, h1, h2, h3, h4 {
 }
 
 body {
-  background: #0000FF;
+  background-color: blue;
 }
 
 .top-stripe {
@@ -45,7 +45,7 @@ body {
 }
 
 .support {
-  
+
 }
 
 .breadcrumb {
@@ -54,4 +54,45 @@ body {
 
 .header-hr {
   margin: 0px;
+}
+
+footer {
+  background-color: #F5F2F2;
+  padding: 30px;
+  border-top: 1px ridge #E0E0E0;
+  border-top-width: 50% thick;
+}
+
+footer h4 {
+  text-transform: capitalize;
+  color: #538cc6;
+  font-size: 18px;
+}
+
+footer ul {
+  float: left;
+  width: 18%;
+  list-style-type: none;
+}
+
+footer:after {
+  content: "";
+  display: block;
+  clear: both;
+}
+
+footer li {
+  text-transform: uppercase;
+  font-size: 12px;
+  padding: 5px;
+}
+
+footer li p {
+  text-transform: capitalize;
+  font-size: 10px;
+  color: grey;
+}
+
+#contactus {
+
 }

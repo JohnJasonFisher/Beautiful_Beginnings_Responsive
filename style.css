@@ -56,6 +56,13 @@ body {
   margin: 0px;
 }
 
+.header-nav li {
+  text-transform: uppercase;
+  list-style-type: none;
+  display: inline;
+  padding: 10px;
+}
+
 footer {
   background-color: #F5F2F2;
   padding: 30px;

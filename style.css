@@ -90,6 +90,14 @@ body {
   margin-bottom: 5px;
 }
 
+#Featured {
+  margin-top: 25px;
+}
+
+#Products {
+  margin-bottom: 15px;
+}
+
 .selling-button-see-all {
   text-transform: uppercase;
   margin: 25px;

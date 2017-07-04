@@ -67,6 +67,52 @@ body {
   margin: 5px;
 }
 
+.selling-images ul {
+  display: inline;
+  float: left;
+  margin: 0px;
+  padding: 5px;
+}
+
+.selling-images ul li{
+  list-style-type: none;
+}
+
+.featured-products {
+  text-align: center;
+}
+
+.featured-products h4 {
+  color: #538cc6;
+  font-size: 25px;
+  padding: 0px;
+  margin: 0px;
+  margin-bottom: 5px;
+}
+
+.selling-button-see-all {
+  text-transform: uppercase;
+  margin: 25px;
+}
+
+.selling-description {
+  text-align: center;
+  font-size: 14px;
+  margin: 0px;
+}
+
+.selling-price {
+  text-align: center;
+  font-size: 10px;
+  font-weight: bold;
+}
+
+main:after {
+  content: "";
+  display: block;
+  clear: both;
+}
+
 footer {
   background-color: #F5F2F2;
   padding: 30px;

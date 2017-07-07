@@ -46,23 +46,24 @@ body {
 }
 
 .info-line {
-  margin: 0 auto;
+}
+
+.info-line:after {
+  content: "";
+  display: block;
+  clear: both;
+}
+
+.support {
+  float: left;
 }
 
 .info-nav li{
-  text-align: right;
+  float: right;
   text-transform: uppercase;
   list-style-type: none;
   display: inline;
   padding: 5px;
-}
-
-.support {
-
-}
-
-.breadcrumb {
-
 }
 
 .header-hr {

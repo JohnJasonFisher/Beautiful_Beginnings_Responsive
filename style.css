@@ -15,6 +15,10 @@ body {
   background-color: blue;
 }
 
+.cursive {
+  font-family: cursive;
+}
+
 .top-stripe {
   height: 10px;
   background-image: linear-gradient(
@@ -42,6 +46,15 @@ body {
 }
 
 .info-line {
+  margin: 0 auto;
+}
+
+.info-nav li{
+  text-align: right;
+  text-transform: uppercase;
+  list-style-type: none;
+  display: inline;
+  padding: 5px;
 }
 
 .support {
@@ -63,6 +76,10 @@ body {
   padding: 10px;
 }
 
+.header-logo {
+
+}
+
 .banner {
   margin: 5px;
 }
@@ -76,6 +93,12 @@ body {
 
 .selling-images ul li{
   list-style-type: none;
+}
+
+.selling-images:after {
+  content: "";
+  display: block;
+  clear: both;
 }
 
 .featured-products {
@@ -115,10 +138,13 @@ body {
   font-weight: bold;
 }
 
-main:after {
-  content: "";
-  display: block;
-  clear: both;
+.about-us {
+
+}
+
+#about-us-title {
+  text-transform: capitalize;
+  color: #538cc6;
 }
 
 footer {

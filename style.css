@@ -211,6 +211,10 @@ footer li p {
   padding: 0px;
 }
 
+#bottom-stripe {
+  width: 100%;
+}
+
 #contactus {
   padding: 0px;
   margin: 0px;

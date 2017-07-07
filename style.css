@@ -3,8 +3,8 @@
 }
 
 body, ul, li {
-  margin 0px;
-  padding;
+  margin: 0px;
+  padding: 0px;
 }
 
 p, li, h1, h2, h3, h4 {
@@ -19,8 +19,8 @@ body {
   font-family: cursive;
 }
 
-.top-stripe {
-  background-image: url("image/aepsd/color_strip.png");
+.stripe {
+
   }
 
   .polka-dotted-wrapper {

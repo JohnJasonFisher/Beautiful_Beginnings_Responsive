@@ -67,8 +67,14 @@ body {
   padding: 10px;
 }
 
-.header-logo {
+.second-header-logo {
+  font-family: cursive;
+}
 
+.header-logo {
+  background: url("image/aepsd/headerlogo.png") no-repeat;
+  text-indent: -10000px;
+  margin: 5px;
 }
 
 .banner {
@@ -136,6 +142,12 @@ body {
 #about-us-title {
   text-transform: capitalize;
   color: #538cc6;
+}
+
+.signature {
+  font-size: 20px;
+  text-transform: capitalize;
+  text-align: right;
 }
 
 footer {

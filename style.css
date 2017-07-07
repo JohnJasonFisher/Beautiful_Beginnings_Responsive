@@ -67,13 +67,29 @@ body {
   padding: 10px;
 }
 
+#title section {
+  float: left;
+  width: 33%;
+}
+
 .second-header-logo {
   font-family: cursive;
+}
+
+#title:after {
+  display: block;
+  content: "";
+  clear: both;
 }
 
 .header-logo {
   background: url("image/aepsd/headerlogo.png") no-repeat;
   text-indent: -10000px;
+  margin: 10px;
+  width: 100%;
+}
+
+#search {
   margin: 5px;
 }
 

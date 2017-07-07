@@ -36,6 +36,8 @@ body {
 }
 
 .info-line {
+  font-size: 10px;
+  font-style: italic;
 }
 
 .info-line:after {
@@ -50,7 +52,6 @@ body {
 
 .info-nav li{
   float: right;
-  text-transform: uppercase;
   list-style-type: none;
   display: inline;
   padding: 5px;

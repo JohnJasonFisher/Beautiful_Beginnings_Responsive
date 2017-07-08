@@ -79,6 +79,12 @@ body {
   font-family: cursive;
 }
 
+#logo h1 {
+  display: none !important;
+  margin: 0px;
+  line-height: 300px;
+}
+
 #title:after {
   display: block;
   content: "";
@@ -86,6 +92,7 @@ body {
 }
 
 #header-logo-section {
+  margin: 0px;
   width: 50% !important;
 }
 
@@ -93,6 +100,7 @@ body {
   background: url("image/aepsd/headerlogo.png") no-repeat;
   background-position: center;
   text-indent: -10000px;
+  margin-top: 25px;
 }
 
 #search {

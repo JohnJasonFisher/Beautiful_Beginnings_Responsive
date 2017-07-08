@@ -79,12 +79,6 @@ body {
   font-family: cursive;
 }
 
-#logo h1 {
-  display: none !important;
-  margin: 0px;
-  line-height: 300px;
-}
-
 #title:after {
   display: block;
   content: "";
@@ -101,6 +95,10 @@ body {
   background-position: center;
   text-indent: -10000px;
   margin-top: 25px;
+}
+
+.header-logo h1 {
+  display: none;
 }
 
 #search {

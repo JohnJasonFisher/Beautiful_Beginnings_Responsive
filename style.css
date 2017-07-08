@@ -19,6 +19,10 @@ body {
   font-family: cursive;
 }
 
+#top-stripe {
+  line-height: 0px;
+}
+
   .polka-dotted-wrapper {
     background: url("image/aepsd/background.png");
   }
@@ -148,10 +152,6 @@ body {
   font-weight: bold;
 }
 
-.about-us {
-
-}
-
 #about-us-title {
   text-transform: capitalize;
   color: #538cc6;
@@ -205,10 +205,6 @@ body {
   color: grey;
   margin: 0px;
   padding: 0px;
-}
-
-#bottom-stripe {
-  width: 100%;
 }
 
 #contactus {

@@ -217,8 +217,12 @@ body {
   list-style-type: none;
 }
 
-.newsletter-ul {
+.footer-grey-box ul li p {
+  padding: 0px;
   margin: 0px;
+}
+
+.newsletter-ul {
   padding: 0px;
 }
 
@@ -242,7 +246,7 @@ body {
   padding: 0px;
 }
 
-#contactus {
+#contact-us {
   padding: 0px;
   margin-right: 0px;
   margin-left: 0px;

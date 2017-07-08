@@ -1,8 +1,11 @@
 .social {
   padding: 0px;
+  text-align: center;
 }
 
 .fa {
+  width: 34px;
+  height: 34px;
   right: 1px;
   padding: 10px;
   margin: 0px;

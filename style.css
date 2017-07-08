@@ -81,7 +81,12 @@ body {
 }
 
 .second-header-logo {
-  font-family: cursive;
+  margin-top: 15px;
+}
+
+.second-header-logo h3 {
+  text-align: center;
+  margin: 0px;
 }
 
 #title:after {
@@ -265,4 +270,18 @@ body {
   height: 50px;
   width: 220px;
   margin-left: 160px;
+}
+
+/* MEDIA QUERIES */
+
+@media screen and (max-width: 960px) {
+
+  .corporate-info {
+    text-align: center;
+  }
+
+  #bottom-logo {
+    margin-left: 0px;
+  }
+
 }

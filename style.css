@@ -24,6 +24,10 @@ body {
   line-height: 0px;
 }
 
+#top-stripe img {
+  width: 100%;
+}
+
   .polka-dotted-wrapper {
     background: url("image/aepsd/background.png");
   }
@@ -179,20 +183,20 @@ body {
   text-align: right;
 }
 
-.footer {
+.footer-grey-box {
   background-color: #F5F2F2;
   padding: 30px;
   border-top: 1px ridge #E0E0E0;
   border-top-width: 50% thick;
 }
 
-.footer h4 {
+.footer-grey-box h4 {
   text-transform: capitalize;
   color: #538cc6;
   font-size: 18px;
 }
 
-.footer ul {
+.footer-grey-box ul {
   float: left;
   width: 18%;
   list-style-type: none;
@@ -203,19 +207,19 @@ body {
   padding: 0px;
 }
 
-.footer:after {
+.footer-grey-box:after {
   content: "";
   display: block;
   clear: both;
 }
 
-.footer li {
+.footer-grey-box li {
   text-transform: uppercase;
   font-size: 12px;
   padding: 5px;
 }
 
-.footer li p {
+.footer-grey-box li p {
   text-transform: capitalize;
   font-size: 10px;
   color: grey;
@@ -227,4 +231,14 @@ body {
   padding: 0px;
   margin-right: 0px;
   margin-left: 0px;
+}
+
+#bottom-stripe {
+  margin: 0px;
+  padding: 0px;
+}
+
+#bottom-stripe img {
+  width: 100%;
+  height: 7px;
 }

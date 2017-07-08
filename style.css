@@ -243,3 +243,26 @@ body {
   width: 100%;
   height: 7px;
 }
+
+.corporate-info {
+  margin-top: 10px;
+  margin-bottom: 50px;
+}
+
+.corporate-info ul {
+  float: left;
+  list-style-type: none;
+}
+
+.corporate-info ul li {
+  display: inline;
+  padding: 2px;
+  font-size: 12px;
+  color: grey;
+}
+
+#bottom-logo {
+  height: 50px;
+  width: 220px;
+  margin-left: 160px;
+}

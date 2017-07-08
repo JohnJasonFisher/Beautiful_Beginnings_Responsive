@@ -130,6 +130,9 @@ body {
   margin: 5px;
 }
 
+.selling-images {
+}
+
 .selling-images ul {
   display: inline;
   float: left;
@@ -288,6 +291,18 @@ body {
 
   #bottom-logo {
     margin-left: 0px;
+  }
+
+  .selling-images ul {
+    display: inline;
+    float: none;
+    margin: 0px;
+    padding: 5px;
+  }
+
+  .selling-images ul li{
+    text-align: center;
+    list-style-type: none;
   }
 
 }

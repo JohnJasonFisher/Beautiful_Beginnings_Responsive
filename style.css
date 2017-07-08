@@ -12,6 +12,7 @@ p, li, h1, h2, h3, h4 {
 }
 
 body {
+  line-height: 0px;
   background-color: blue;
 }
 
@@ -70,7 +71,8 @@ body {
 
 #title section {
   float: left;
-  width: 33%;
+  width: 25%;
+  height: 100%;
 }
 
 .second-header-logo {
@@ -83,11 +85,14 @@ body {
   clear: both;
 }
 
+#header-logo-section {
+  width: 50% !important;
+}
+
 .header-logo {
   background: url("image/aepsd/headerlogo.png") no-repeat;
+  background-position: center;
   text-indent: -10000px;
-  margin: 10px;
-  width: 100%;
 }
 
 #search {

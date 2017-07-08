@@ -67,11 +67,17 @@ body {
   margin: 0px;
 }
 
+.header-nav {
+  display: block;
+  text-align:center;
+}
+
 .header-nav li {
   text-transform: uppercase;
   list-style-type: none;
   display: inline;
   padding: 15px;
+  width: 11.1%;
 }
 
 #title section {

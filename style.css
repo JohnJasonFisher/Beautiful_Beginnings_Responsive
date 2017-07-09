@@ -102,7 +102,7 @@ body {
 }
 
 #header-logo-section {
-  margin: 0px;
+  margin: 0;
   width: 50% !important;
 }
 
@@ -118,6 +118,7 @@ body {
 }
 
 #search {
+  align: center;
   margin: 5px;
 }
 
@@ -308,5 +309,36 @@ body {
     text-align: center;
     list-style-type: none;
   }
+
+}
+
+@media screen and (max-width: 810px) {
+
+  #title section {
+    float: none;
+    margin: auto;
+    width: 50%;
+    padding: 10px;
+  }
+
+  .second-header-logo {
+    display: none;
+  }
+
+  #search {
+    display: none;
+  }
+
+  .center {
+    margin: auto;
+    width: 50%;
+    border: 3px solid green;
+    padding: 10px;
+}
+
+#header-logo-section {
+  margin: 0;
+  width: auto !important;
+}
 
 }

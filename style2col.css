@@ -150,9 +150,17 @@ body {
   padding: 5px;
 }
 
-.selling-images-sidebar ul li{
+.selling-images-sidebar ul li {
   list-style-type: none;
 }
+
+.selling-images-sidebar ul li img {
+  list-style-type: none;
+  display: block;
+  margin: auto;
+  width: 100%;
+}
+
 
 .selling-images-sidebar:after {
   content: "";
@@ -186,11 +194,13 @@ body {
 }
 
 .selling-description {
+  text-align: center;
   font-size: 14px;
   margin: 0px;
 }
 
 .selling-price {
+  text-align: center;
   font-size: 10px;
   font-weight: bold;
 }
@@ -199,7 +209,13 @@ body {
   float: right;
   border: 25px solid red;
   width: 70%;
-  height: 882px;
+  height: auto;
+}
+
+.selling-images-show img {
+  display: block;
+  margin: auto;
+  width: 40%;
 }
 
 .selling-images-show:after {

@@ -141,6 +141,8 @@ body {
 
 .selling-images-sidebar {
   float: left;
+  width: 30%;
+  border: 25px solid blue;
 }
 
 .selling-images-sidebar ul {
@@ -149,7 +151,6 @@ body {
 }
 
 .selling-images-sidebar ul li{
-  float: left;
   list-style-type: none;
 }
 
@@ -195,7 +196,10 @@ body {
 }
 
 .selling-images-show {
+  float: right;
   border: 25px solid red;
+  width: 70%;
+  height: 882px;
 }
 
 .selling-images-show:after {
@@ -322,7 +326,6 @@ body {
   }
 
   .selling-images-sidebar {
-    border: 25px solid blue;
   }
 
   .selling-images-sidebar ul {
@@ -445,8 +448,6 @@ body {
 }
 
 @media screen and (max-width: 540px) {
-
-
 
 }
 

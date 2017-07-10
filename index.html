@@ -30,18 +30,20 @@
               <a>Call us at: <strong>708-246-1212</strong></a>
               <input type="submit" value="Submit">
             </div>
-            <div id="burger-nav"></div>
-            <div class="info-nav">
-              <ul>
-                <!-- this is in reverse because float right in info-nav class -->
-                <li><strong>$2103.92</strong></li>
-                <li>&#8226;</li>
-                <li>Check out</li>
-                <li>5 items</li>
-                <li>Login/Register</li>
-                <li>Baby Registry</li>
-              </ul>
+            <div id="burger-nav"  onclick="show()">
+              <div></div>
+              <div></div>
+              <div></div>
             </div>
+            <ul id="info-nav">
+              <!-- this is in reverse because float right in info-nav class -->
+              <li><strong>$2103.92</strong></li>
+              <li>&#8226;</li>
+              <li>5 items</li>
+              <li><a href="#">Check out</a></li>
+              <li><a href="#">Login/Register</a></li>
+              <li><a href="#">Baby Registry</a></li>
+            </ul>
           </div>
           <hr class="header-hr">
           <div id="title">
@@ -202,5 +204,16 @@
         </footer>
       </div>
     </div>
+    <script>
+      function show() {
+        if (document.getElementById("info-nav").style.display === "none") {
+          document.getElementById("info-nav").style.display = "block";
+          console.log("block");
+        } else {
+          document.getElementById("info-nav").style.display = "none";
+        }
+        console.log("working");
+      }
+    </script>
   </body>
 </html>

@@ -58,7 +58,7 @@ body {
   float: left;
 }
 
-.info-nav li{
+#info-nav li{
   float: right;
   list-style-type: none;
   display: inline;
@@ -398,7 +398,38 @@ body {
     padding: 0px;
   }
 
-  .expand {
+  #info-nav {
+    display: none;
+  }
+
+  #info-nav li {
+    margin-bottom: 5px;
+    /*float: none;*/
+    width: 100%;
+    margin: 0;
+    display: block;
+    text-align: center;
+  }
+
+  #info-nav li a {
+    display: block;
+    text-align: center;
+  }
+
+  #burger-nav {
+    float: right;
+    cursor: pointer;
+  }
+
+  #burger-nav div {
+    width: 35px;
+    height: 5px;
+    background-color: black;
+    margin: 6px 0;
+  }
+
+  .support {
+    margin: 10px;
   }
 
 }

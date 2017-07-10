@@ -209,20 +209,20 @@ body {
   font-weight: bold;
 }
 
-.selling-images-show {
+.selling-show {
   float: right;
   border: 25px solid red;
   width: 70%;
   height: 100%;
 }
 
-.selling-images-show img {
+.selling-show img {
   display: block;
   margin: auto;
   width: 40%;
 }
 
-.selling-images-show:after {
+.selling-show:after {
   content: "";
   display: block;
   clear: both;

@@ -139,30 +139,34 @@ body {
   object-fit: contain;
 }
 
-.selling-images-sidebar {
+.selling {
+  height: 800px;
+}
+
+.selling-sidebar {
   float: left;
   width: 30%;
   border: 25px solid blue;
+  height: 100%;
 }
 
-.selling-images-sidebar ul {
+.selling-sidebar ul {
   margin: 0px;
   padding: 5px;
 }
 
-.selling-images-sidebar ul li {
+.selling-sidebar ul li {
   list-style-type: none;
 }
 
-.selling-images-sidebar ul li img {
+.selling-sidebar ul li img {
   list-style-type: none;
   display: block;
   margin: auto;
   width: 100%;
 }
 
-
-.selling-images-sidebar:after {
+.selling-sidebar:after {
   content: "";
   display: block;
   clear: both;
@@ -209,7 +213,7 @@ body {
   float: right;
   border: 25px solid red;
   width: 70%;
-  height: auto;
+  height: 100%;
 }
 
 .selling-images-show img {
@@ -341,17 +345,17 @@ body {
     margin-left: 0px;
   }
 
-  .selling-images-sidebar {
+  .selling-sidebar {
   }
 
-  .selling-images-sidebar ul {
+  .selling-sidebar ul {
     display: inline;
     float: none;
     margin: 0px;
     padding: 5px;
   }
 
-  .selling-images-sidebar ul li{
+  .selling-sidebar ul li{
     text-align: center;
     list-style-type: none;
   }

@@ -1,4 +1,4 @@
-/*responsive at 960px, 810px and 480px*/
+/*responsive at 960px, 810px, 685px, 540px; and 480px*/
 
 *{
   font-family: georgia;
@@ -214,7 +214,8 @@ body {
   border-top-width: 50% thick;
 }
 
-.footer-grey-box h4 {
+.footer-grey-box ul li h4 {
+  width: 100%;
   text-transform: capitalize;
   color: #538cc6;
   font-size: 18px;
@@ -298,6 +299,16 @@ body {
 
 @media screen and (max-width: 960px) {
 
+  .polka-dotted-wrapper {
+    background: none;
+  }
+
+  .footer-grey-box:after {
+    content: "";
+    display: block;
+    clear: both;
+  }
+
   .corporate-info {
     text-align: center;
   }
@@ -344,15 +355,60 @@ body {
     padding: 10px;
 }
 
-#header-logo-section {
-  margin: 0;
-  width: auto !important;
+  #header-logo-section {
+    margin: 0;
+    width: auto !important;
+  }
+
 }
+
+@media screen and (max-width: 685px) {
+
+  .footer-grey-box ul {
+    width: 100%;
+  }
+
+  .collapse {
+    display: show;
+  }
+
+  .footer-grey-box ul li h4 {
+    margin-left: 10px;
+  }
+
+  .footer-grey-box ul li h6 {
+    text-align: center;
+  }
+
+  .footer-grey-box ul li p {
+    text-align: center;
+  }
+
+  .expandables li {
+    display: none;
+  }
+
+
+  .footer-grey-box ul {
+    float: none;
+  }
+
+  .footer-grey-box ul li h4 {
+    width: 100%;
+    padding: 0px;
+  }
+
+  .expand {
+  }
+
+}
+
+@media screen and (max-width: 540px) {
+
+
 
 }
 
 @media screen and (max-width: 480px) {
-
-
 
 }

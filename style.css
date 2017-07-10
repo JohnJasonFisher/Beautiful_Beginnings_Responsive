@@ -1,3 +1,5 @@
+/*responsive at 960px, 810px and 480px*/
+
 *{
   font-family: georgia;
 }
@@ -128,7 +130,13 @@ body {
 }
 
 .banner {
+  max-width: 100%;
   margin: 5px;
+}
+
+.banner img{
+  width: 100%;
+  object-fit: contain;
 }
 
 .selling-images {
@@ -340,5 +348,11 @@ body {
   margin: 0;
   width: auto !important;
 }
+
+}
+
+@media screen and (max-width: 480px) {
+
+
 
 }

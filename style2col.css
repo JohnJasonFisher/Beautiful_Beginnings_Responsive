@@ -140,13 +140,17 @@ body {
 }
 
 .selling {
-  height: 800px;
+  background: #FFFFFD;
+  height: 850px;
 }
 
 .selling-sidebar {
+  background: white;
+  margin: 0.5px;
   float: left;
-  width: 30%;
-  border: 25px solid blue;
+  width: 29%;
+  border-left: 2px black;
+  box-shadow: 2px 2px 2px grey;
   height: 100%;
 }
 
@@ -214,10 +218,12 @@ body {
 }
 
 .selling-show {
+  background: white;
   float: right;
-  border: 25px solid red;
-  width: 70%;
+  box-shadow: 2px 2px 2px grey;
+  width: 69%;
   height: 100%;
+  margin: 0.5px;
 }
 
 .selling-show ul {
@@ -402,6 +408,7 @@ body {
 
   .selling-sidebar {
   }
+
 
   .selling-sidebar ul {
     display: inline;

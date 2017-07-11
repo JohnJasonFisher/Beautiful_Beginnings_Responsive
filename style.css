@@ -139,21 +139,22 @@ body {
   object-fit: contain;
 }
 
-.selling-images {
+.selling {
+  height: 100%;
 }
 
-.selling-images ul {
+.selling ul {
   display: inline;
   float: left;
   margin: 0px;
   padding: 5px;
 }
 
-.selling-images ul li{
+.selling ul li{
   list-style-type: none;
 }
 
-.selling-images:after {
+.selling:after {
   content: "";
   display: block;
   clear: both;
@@ -318,14 +319,14 @@ body {
     margin-left: 0px;
   }
 
-  .selling-images ul {
+  .selling ul {
     display: inline;
     float: none;
     margin: 0px;
     padding: 5px;
   }
 
-  .selling-images ul li{
+  .selling ul li{
     text-align: center;
     list-style-type: none;
   }

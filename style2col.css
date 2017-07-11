@@ -527,12 +527,14 @@ body {
     margin: 10px;
   }
 
-}
-
-@media screen and (max-width: 540px) {
+  .selling {
+    height: 720px;
+  }
 
 }
 
 @media screen and (max-width: 480px) {
-
+  .selling {
+    height: 620px;
+  }
 }

@@ -400,15 +400,12 @@ body {
     padding: 0px;
   }
 
-
-
   #info-nav {
     display: none;
   }
 
   #info-nav li {
     margin-bottom: 5px;
-    /*float: none;*/
     width: 100%;
     margin: 0;
     display: block;

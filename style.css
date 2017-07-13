@@ -243,6 +243,10 @@ body {
   padding: 0px;
 }
 
+.email-submit {
+  display: inline;
+}
+
 .footer-grey-box:after {
   content: "";
   display: block;

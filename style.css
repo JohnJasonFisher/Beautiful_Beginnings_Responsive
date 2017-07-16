@@ -247,15 +247,16 @@ body {
   padding: 0px;
 }
 
-.newsletter {
-  padding: 0px;
-}
-
 .footer-grey-box:after {
   content: "";
   display: block;
   clear: both;
 }
+
+.newsletter {
+  padding: 0px;
+}
+
 
 #contact-us {
   padding: 0px;

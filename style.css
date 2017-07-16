@@ -220,6 +220,18 @@ body {
   border-top-width: 50% thick;
 }
 
+.footer-grey-box ul {
+  float: left;
+  width: 18%;
+  list-style-type: none;
+}
+
+.footer-grey-box ul li {
+  text-transform: uppercase;
+  font-size: 12px;
+  padding: 5px;
+}
+
 .footer-grey-box ul li h4 {
   width: 100%;
   text-transform: capitalize;
@@ -227,43 +239,22 @@ body {
   font-size: 18px;
 }
 
-.footer-grey-box ul {
-  float: left;
-  width: 18%;
-  list-style-type: none;
-}
-
 .footer-grey-box ul li p {
-  padding: 0px;
+  text-transform: capitalize;
+  font-size: 10px;
+  color: grey;
   margin: 0px;
+  padding: 0px;
 }
 
 .newsletter {
   padding: 0px;
 }
 
-.email-submit {
-  display: inline;
-}
-
 .footer-grey-box:after {
   content: "";
   display: block;
   clear: both;
-}
-
-.footer-grey-box li {
-  text-transform: uppercase;
-  font-size: 12px;
-  padding: 5px;
-}
-
-.footer-grey-box li p {
-  text-transform: capitalize;
-  font-size: 10px;
-  color: grey;
-  margin: 0px;
-  padding: 0px;
 }
 
 #contact-us {

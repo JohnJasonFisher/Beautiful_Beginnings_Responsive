@@ -86,6 +86,11 @@ body {
   width: 11.1%;
 }
 
+.header-nav li a {
+  color: black;
+  cursor: pointer;
+}
+
 #title section {
   float: left;
   width: 25%;
@@ -252,6 +257,9 @@ body {
   padding: 0px;
 }
 
+.newsletter-sign-up {
+  display: inline;
+}
 
 #contact-us {
   padding: 0px;
@@ -314,8 +322,7 @@ body {
     margin-left: 0px;
   }
 
-  .selling ul {
-    display: inline;
+  /*.selling ul {
     float: none;
     margin: 0px;
     padding: 5px;
@@ -324,6 +331,27 @@ body {
   .selling ul li{
     text-align: center;
     list-style-type: none;
+  }*/
+
+  .selling ul {
+    float: none;
+    margin: 0px;
+    padding: 5px;
+  }
+
+  .selling-point li {
+    float: left;
+    text-align: center;
+    list-style-type: none;
+
+  }
+
+  .selling-description {
+    text-align: left;
+  }
+
+  .selling-price {
+    text-align: left;
   }
 
 }
@@ -343,6 +371,9 @@ body {
 
   #search {
     display: none;
+  }
+
+  .fa-search {
   }
 
   .center {
@@ -425,7 +456,19 @@ body {
   }
 
   .support {
+    display: inline;
     margin: 10px;
+  }
+
+  .selling ul {
+    float: none;
+    margin: 0px;
+    padding: 5px;
+  }
+
+  .selling ul li{
+    text-align: center;
+    list-style-type: none;
   }
 
 }

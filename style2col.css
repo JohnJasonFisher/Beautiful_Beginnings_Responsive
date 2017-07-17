@@ -86,6 +86,11 @@ body {
   width: 11.1%;
 }
 
+.header-nav li a {
+  color: black;
+  cursor: pointer;
+}
+
 #title section {
   float: left;
   width: 25%;

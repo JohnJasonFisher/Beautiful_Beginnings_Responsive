@@ -78,7 +78,11 @@ body {
   text-align:center;
 }
 
-.header-nav li {
+#header-nav-mobile {
+  display: none;
+}
+
+.header-nav-desktop li {
   text-transform: uppercase;
   list-style-type: none;
   display: inline;
@@ -86,10 +90,17 @@ body {
   width: 11.1%;
 }
 
-.header-nav li a {
+.header-nav-desktop li a {
   color: black;
   cursor: pointer;
 }
+
+.header-nav-mobile li {
+  display: none;
+  list-style-type: none;
+  text-transform: capitalize;
+}
+
 
 #title section {
   float: left;
@@ -183,6 +194,10 @@ body {
   content: "";
   display: block;
   clear: both;
+}
+
+.selling-point {
+
 }
 
 .featured-products {
@@ -459,6 +474,14 @@ body {
 }
 
 @media screen and (max-width: 685px) {
+
+  #header-nav-desktop {
+    display: none;
+  }
+
+  .header-nav-mobile li {
+    display: show;
+  }
 
   .footer-grey-box ul {
     width: 100%;

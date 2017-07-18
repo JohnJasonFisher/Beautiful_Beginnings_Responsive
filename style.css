@@ -78,7 +78,11 @@ body {
   text-align:center;
 }
 
-.header-nav li {
+#header-nav-mobile {
+  display: none;
+}
+
+#header-nav-desktop li {
   text-transform: uppercase;
   list-style-type: none;
   display: inline;
@@ -86,9 +90,15 @@ body {
   width: 11.1%;
 }
 
-.header-nav li a {
+#header-nav-desktop li a {
   color: black;
   cursor: pointer;
+}
+
+.header-nav-mobile li {
+  display: none;
+  list-style-type: none;
+  text-transform: capitalize;
 }
 
 #title section {
@@ -322,7 +332,7 @@ body {
     margin-left: 0px;
   }
 
-  /*.selling ul {
+  .selling ul {
     float: none;
     margin: 0px;
     padding: 5px;
@@ -331,27 +341,6 @@ body {
   .selling ul li{
     text-align: center;
     list-style-type: none;
-  }*/
-
-  .selling ul {
-    float: none;
-    margin: 0px;
-    padding: 5px;
-  }
-
-  .selling-point li {
-    float: left;
-    text-align: center;
-    list-style-type: none;
-
-  }
-
-  .selling-description {
-    text-align: left;
-  }
-
-  .selling-price {
-    text-align: left;
   }
 
 }
@@ -391,6 +380,14 @@ body {
 }
 
 @media screen and (max-width: 685px) {
+
+  #header-nav-desktop {
+    display: none;
+  }
+
+  .header-nav-mobile li {
+    display: show;
+  }
 
   .footer-grey-box ul {
     width: 100%;
@@ -460,25 +457,8 @@ body {
     margin: 10px;
   }
 
-  .selling ul {
-    float: none;
-    margin: 0px;
-    padding: 5px;
+  #live-chat-now {
+    display: none;
   }
-
-  .selling ul li{
-    text-align: center;
-    list-style-type: none;
-  }
-
-}
-
-@media screen and (max-width: 540px) {
-
-
-
-}
-
-@media screen and (max-width: 480px) {
 
 }

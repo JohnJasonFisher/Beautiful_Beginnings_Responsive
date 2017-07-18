@@ -231,7 +231,7 @@ body {
 }
 
 #add-to-cart {
-  margin: 40px;
+  margin: 400px;
 }
 
 .selling-price {
@@ -292,9 +292,11 @@ body {
 
 #selling-show-image {
   margin-top: 60px;
+  margin-bottom: 30px;
 }
 
 .selling-show-description li {
+  padding: 8px;
 }
 
 .selling-show-description li p {
@@ -577,6 +579,6 @@ body {
 
 @media screen and (max-width: 480px) {
   .selling {
-    height: 620px;
+    height: 700px;
   }
 }

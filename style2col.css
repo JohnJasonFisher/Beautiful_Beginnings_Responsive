@@ -82,7 +82,7 @@ body {
   display: none;
 }
 
-.header-nav-desktop li {
+#header-nav-desktop li {
   text-transform: uppercase;
   list-style-type: none;
   display: inline;
@@ -90,12 +90,12 @@ body {
   width: 11.1%;
 }
 
-.header-nav-desktop li a {
+#header-nav-desktop li a {
   color: black;
   cursor: pointer;
 }
 
-.header-nav-mobile li {
+#header-nav-mobile li {
   display: none;
   list-style-type: none;
   text-transform: capitalize;
@@ -363,6 +363,10 @@ body {
   padding: 0px;
 }
 
+.newsletter-sign-up {
+  display: inline;
+}
+
 #contact-us {
   padding: 0px;
   margin-right: 0px;
@@ -555,6 +559,10 @@ body {
 
   .selling {
     height: 720px;
+  }
+
+  #live-chat-now {
+    display: none;
   }
 
 }

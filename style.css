@@ -95,7 +95,7 @@ body {
   cursor: pointer;
 }
 
-.header-nav-mobile li {
+#header-nav-mobile li {
   display: none;
   list-style-type: none;
   text-transform: capitalize;

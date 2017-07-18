@@ -27,8 +27,8 @@
         <header>
           <div class="info-line">
             <div class="support">
-              <a>Call us at: <strong>708-246-1212</strong></a>
-              <input type="submit" value="Submit">
+              <span>Call us at: <strong>708-246-1212</strong></span>
+              <input type="image" id="live-chat-now" src="image/aepsd/live_chat_button.png" />
             </div>
             <div id="burger-nav"  onclick="show()">
               <div></div>
@@ -47,10 +47,10 @@
           </div>
           <hr class="header-hr">
           <div id="title">
-            <section class="second-header-logo cursive">
+            <section class="second-header-logo">
               <div>
-                <h3>Childern. Our Greatest</h3>
-                <h3>Earthly Blessings</h3>
+                <h3 class="cursive">Childern. Our Greatest</h3>
+                <h3 class="cursive">Earthly Blessings</h3>
               </div>
             </section>
             <section id="header-logo-section">
@@ -60,7 +60,7 @@
               </div>
             </section>
             <section id="search">
-              <div>
+              <div >
                 <input type="text" placeholder="Search this site...">
                 <span class="fa fa-search"></span>
               </div>
@@ -68,16 +68,21 @@
           </div>
           <hr id="header-hr-banner">
           <nav class="header-nav">
-            <ul>
-              <li>baby apparel</li>
-              <li>baby gifts</li>
-              <li>christening</li>
-              <li>furniture</li>
-              <li>bedding</li>
-              <li>decor</li>
-              <li>lighting</li>
-              <li>sale</li>
-              <li>brands</li>
+            <ul id="header-nav-desktop">
+              <li><a href="#">baby apparel</a></li>
+              <li><a href="#">baby gifts</a></li>
+              <li><a href="#">christening</a></li>
+              <li><a href="#">furniture</a></li>
+              <li><a href="#">bedding</a></li>
+              <li><a href="#">decor</a></li>
+              <li><a href="#">lighting</a></li>
+              <li><a href="#">sale</a></li>
+              <li><a href="#">brands</a></li>
+            </ul>
+            <ul id="header-nav-mobile">
+              <li><a href="#">baby registry</a></li>
+              <li>|</li>
+              <li><a href="#">Login/Register</a></li>
             </ul>
           </nav>
           <div class="banner">
@@ -106,7 +111,8 @@
               </ul>
               <ul class="featured-products">
                 <li>Want to see more?</li>
-                <li><button class="selling-button-see-all">see all</button></li>
+                <li><input type="image" id="selling-button-see-all" src="image/aepsd/seeall.png"></li>
+
               </ul>
             </div>
             <div class="selling-show">
@@ -119,7 +125,7 @@
                   <li><p class="in-stock">In Stock</p></li>
                   <ul class="selling-show-description">
                     <li><p>At vero eos et accusamus et iusto odio dignissimos.</p></li>
-                      <li><p>Ducimus qui blanditiis praesentium voluptatum deleniti atque.</p></li>
+                    <li><p>Ducimus qui blanditiis praesentium voluptatum deleniti atque.</p></li>
                     <li><p>Id quod maxime placeat facere possimus.</p></li>
                     <li><button id="Add-to-cart">Add to Shopping Cart</button></li>
                   </ul>
@@ -185,11 +191,13 @@
               <a class="fa fa-youtube"></a>
               <a class="fa fa-google"></a>
             </ul>
-            <ul class="newsletter-ul">
+            <ul class="newsletter">
               <li><h4>newsletter</h4></li>
-              <li><p>Get the latest promotions and special</p></li>
-              <li><p>offers delivered directly to your</p></li>
-              <li><p>inbox.</p></li>
+              <li><p>Get the latest promotions and special offers delivered directly to your inbox.</p></li>
+              <li id="newsletter-sign-up">
+                <input id="newsletter-email" type="text" placeholder="Email Address...">
+                <input type="image" id="newsletter-send-button" src="image/aepsd/sendbutton.png">
+              </li>
             </ul>
           </div>
           <div id="bottom-stripe">

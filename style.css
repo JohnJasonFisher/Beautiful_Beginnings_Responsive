@@ -58,6 +58,10 @@ body {
   float: left;
 }
 
+.support span {
+  padding: 10px;
+}
+
 #info-nav li{
   float: right;
   list-style-type: none;
@@ -66,7 +70,7 @@ body {
 }
 
 .header-hr {
-  margin: 0px;
+  margin: 5px;
 }
 
 .header-nav {
@@ -74,12 +78,27 @@ body {
   text-align:center;
 }
 
-.header-nav li {
+#header-nav-mobile {
+  display: none;
+}
+
+#header-nav-desktop li {
   text-transform: uppercase;
   list-style-type: none;
   display: inline;
   padding: 15px;
   width: 11.1%;
+}
+
+#header-nav-desktop li a {
+  color: black;
+  cursor: pointer;
+}
+
+#header-nav-mobile li {
+  display: none;
+  list-style-type: none;
+  text-transform: capitalize;
 }
 
 #title section {
@@ -181,11 +200,6 @@ body {
   margin-bottom: 15px;
 }
 
-.selling-button-see-all {
-  text-transform: uppercase;
-  margin: 25px;
-}
-
 .selling-description {
   text-align: center;
   font-size: 14px;
@@ -216,6 +230,18 @@ body {
   border-top-width: 50% thick;
 }
 
+.footer-grey-box ul {
+  float: left;
+  width: 18%;
+  list-style-type: none;
+}
+
+.footer-grey-box ul li {
+  text-transform: uppercase;
+  font-size: 12px;
+  padding: 5px;
+}
+
 .footer-grey-box ul li h4 {
   width: 100%;
   text-transform: capitalize;
@@ -223,19 +249,11 @@ body {
   font-size: 18px;
 }
 
-.footer-grey-box ul {
-  float: left;
-  width: 18%;
-  list-style-type: none;
-}
-
 .footer-grey-box ul li p {
-  padding: 0px;
+  text-transform: capitalize;
+  font-size: 10px;
+  color: grey;
   margin: 0px;
-}
-
-.newsletter-ul {
-  text-align: center;
   padding: 0px;
 }
 
@@ -245,18 +263,21 @@ body {
   clear: both;
 }
 
-.footer-grey-box li {
-  text-transform: uppercase;
-  font-size: 12px;
-  padding: 5px;
+.newsletter {
+  padding: 0px;
 }
 
-.footer-grey-box li p {
-  text-transform: capitalize;
-  font-size: 10px;
-  color: grey;
-  margin: 0px;
-  padding: 0px;
+#newsletter-sign-up {
+}
+
+#newsletter-email {
+  float: left;
+  width: 100;
+  height: 23px;
+}
+
+#newsletter-send-button {
+  height: 23px;
 }
 
 #contact-us {
@@ -321,7 +342,6 @@ body {
   }
 
   .selling ul {
-    display: inline;
     float: none;
     margin: 0px;
     padding: 5px;
@@ -351,6 +371,9 @@ body {
     display: none;
   }
 
+  .fa-search {
+  }
+
   .center {
     margin: auto;
     width: 50%;
@@ -366,6 +389,14 @@ body {
 }
 
 @media screen and (max-width: 685px) {
+
+  #header-nav-desktop {
+    display: none;
+  }
+
+  .header-nav-mobile li {
+    display: show;
+  }
 
   .footer-grey-box ul {
     width: 100%;
@@ -431,17 +462,12 @@ body {
   }
 
   .support {
+    display: inline;
     margin: 10px;
   }
 
-}
-
-@media screen and (max-width: 540px) {
-
-
-
-}
-
-@media screen and (max-width: 480px) {
+  #live-chat-now {
+    display: none;
+  }
 
 }
